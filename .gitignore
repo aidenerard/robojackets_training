@@ -1,16 +1,30 @@
+# ============================
+# ROS 2 / Colcon build folders
+# ============================
+build/
+install/
+log/
 
-.cask/
-html/
-*.out
-.DS_Store
-
+# ============================
+# CMake and intermediate files
+# ============================
 CMakeFiles/
-projects/.c9/*
+cmake-build-debug/
 *.o
+*.out
 
-*.idea
-cmake-build-debug
-build
-data
+# ============================
+# Editor & system files
+# ============================
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
 
+# ============================
+# Legacy or unused items
+# ============================
+data/
+projects/.c9/
+html/
 wiki edit
