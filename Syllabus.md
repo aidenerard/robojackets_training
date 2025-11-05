@@ -4,6 +4,7 @@ The RoboJackets software training program is designed to prepare you to work on 
 
 ## Trainers
 - Mukilan Karthikeyan
+- Mrinal Jain
 - Justin Gardiner
 - Cipriano Dorbessan
 
