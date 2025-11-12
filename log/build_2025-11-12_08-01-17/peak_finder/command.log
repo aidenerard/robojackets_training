@@ -1,0 +1,1 @@
+Invoking command in '/workspace/build/peak_finder': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/peak_finder -DCMAKE_INSTALL_PREFIX=/workspace/install/peak_finder

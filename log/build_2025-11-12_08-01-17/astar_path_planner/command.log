@@ -1,0 +1,1 @@
+Invoking command in '/workspace/build/astar_path_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/astar_path_planner -DCMAKE_INSTALL_PREFIX=/workspace/install/astar_path_planner

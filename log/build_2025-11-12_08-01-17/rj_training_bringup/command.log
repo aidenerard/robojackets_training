@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/workspace/install/rj_training_bringup
+Invoked command in '/workspace/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/workspace/install/rj_training_bringup
+Invoking command in '/workspace/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/rj_training_bringup -- -j14 -l14
+Invoked command in '/workspace/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/rj_training_bringup -- -j14 -l14
+Invoking command in '/workspace/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/rj_training_bringup
+Invoked command in '/workspace/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/rj_training_bringup

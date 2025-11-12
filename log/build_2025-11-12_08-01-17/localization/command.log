@@ -1,0 +1,2 @@
+Invoking command in '/workspace/build/localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/localization -DCMAKE_INSTALL_PREFIX=/workspace/install/localization
+Invoked command in '/workspace/build/localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/localization -DCMAKE_INSTALL_PREFIX=/workspace/install/localization

@@ -1,0 +1,589 @@
+[0.000000] (-) TimerEvent: {}
+[0.000731] (astar_path_planner) JobQueued: {'identifier': 'astar_path_planner', 'dependencies': OrderedDict()}
+[0.000929] (controllers) JobQueued: {'identifier': 'controllers', 'dependencies': OrderedDict()}
+[0.001203] (coordinate_transform) JobQueued: {'identifier': 'coordinate_transform', 'dependencies': OrderedDict()}
+[0.001245] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.001287] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.001318] (mineral_deposit_tracking) JobQueued: {'identifier': 'mineral_deposit_tracking', 'dependencies': OrderedDict()}
+[0.001348] (obstacle_detector) JobQueued: {'identifier': 'obstacle_detector', 'dependencies': OrderedDict()}
+[0.001506] (peak_finder) JobQueued: {'identifier': 'peak_finder', 'dependencies': OrderedDict()}
+[0.001584] (rj_training_bringup) JobQueued: {'identifier': 'rj_training_bringup', 'dependencies': OrderedDict()}
+[0.001620] (astar_path_planner) JobStarted: {'identifier': 'astar_path_planner'}
+[0.007543] (controllers) JobStarted: {'identifier': 'controllers'}
+[0.012441] (coordinate_transform) JobStarted: {'identifier': 'coordinate_transform'}
+[0.016109] (localization) JobStarted: {'identifier': 'localization'}
+[0.021232] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.027151] (mineral_deposit_tracking) JobStarted: {'identifier': 'mineral_deposit_tracking'}
+[0.037144] (obstacle_detector) JobStarted: {'identifier': 'obstacle_detector'}
+[0.046797] (peak_finder) JobStarted: {'identifier': 'peak_finder'}
+[0.055487] (rj_training_bringup) JobStarted: {'identifier': 'rj_training_bringup'}
+[0.073315] (astar_path_planner) JobProgress: {'identifier': 'astar_path_planner', 'progress': 'cmake'}
+[0.074897] (astar_path_planner) Command: {'cmd': ['/usr/bin/cmake', '/workspace/astar_path_planner', '-DCMAKE_INSTALL_PREFIX=/workspace/install/astar_path_planner'], 'cwd': '/workspace/build/astar_path_planner', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/astar_path_planner'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.081510] (controllers) JobProgress: {'identifier': 'controllers', 'progress': 'cmake'}
+[0.084560] (controllers) Command: {'cmd': ['/usr/bin/cmake', '/workspace/controllers', '-DCMAKE_INSTALL_PREFIX=/workspace/install/controllers'], 'cwd': '/workspace/build/controllers', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/controllers'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.091325] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'cmake'}
+[0.093839] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '/workspace/coordinate_transform', '-DCMAKE_INSTALL_PREFIX=/workspace/install/coordinate_transform'], 'cwd': '/workspace/build/coordinate_transform', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/coordinate_transform'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.103242] (-) TimerEvent: {}
+[0.103670] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.107850] (localization) Command: {'cmd': ['/usr/bin/cmake', '/workspace/localization', '-DCMAKE_INSTALL_PREFIX=/workspace/install/localization'], 'cwd': '/workspace/build/localization', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/localization'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.111004] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[0.113734] (mapping) Command: {'cmd': ['/usr/bin/cmake', '/workspace/mapping', '-DCMAKE_INSTALL_PREFIX=/workspace/install/mapping'], 'cwd': '/workspace/build/mapping', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/mapping'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.117470] (mineral_deposit_tracking) JobProgress: {'identifier': 'mineral_deposit_tracking', 'progress': 'cmake'}
+[0.121457] (mineral_deposit_tracking) Command: {'cmd': ['/usr/bin/cmake', '/workspace/mineral_deposit_tracking', '-DCMAKE_INSTALL_PREFIX=/workspace/install/mineral_deposit_tracking'], 'cwd': '/workspace/build/mineral_deposit_tracking', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/mineral_deposit_tracking'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.124870] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'cmake'}
+[0.132262] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '/workspace/obstacle_detector', '-DCMAKE_INSTALL_PREFIX=/workspace/install/obstacle_detector'], 'cwd': '/workspace/build/obstacle_detector', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/obstacle_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.138703] (peak_finder) JobProgress: {'identifier': 'peak_finder', 'progress': 'cmake'}
+[0.146120] (peak_finder) Command: {'cmd': ['/usr/bin/cmake', '/workspace/peak_finder', '-DCMAKE_INSTALL_PREFIX=/workspace/install/peak_finder'], 'cwd': '/workspace/build/peak_finder', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/peak_finder'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.152742] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'cmake'}
+[0.157543] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '/workspace/rj_training_bringup', '-DCMAKE_INSTALL_PREFIX=/workspace/install/rj_training_bringup'], 'cwd': '/workspace/build/rj_training_bringup', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/rj_training_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.203475] (-) TimerEvent: {}
+[0.305428] (-) TimerEvent: {}
+[0.408782] (-) TimerEvent: {}
+[0.470753] (astar_path_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.498394] (localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.504434] (coordinate_transform) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.505537] (controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.510262] (-) TimerEvent: {}
+[0.519379] (mineral_deposit_tracking) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.522988] (mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.536752] (obstacle_detector) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.542854] (peak_finder) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.561241] (rj_training_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.611880] (-) TimerEvent: {}
+[0.712379] (-) TimerEvent: {}
+[0.778372] (astar_path_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.782832] (localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.793440] (coordinate_transform) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.794398] (controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.804266] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.809597] (mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.810907] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.813390] (-) TimerEvent: {}
+[0.823347] (controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.824757] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.825588] (mineral_deposit_tracking) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.829848] (obstacle_detector) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.838589] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.845341] (peak_finder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.855628] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.860875] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.873036] (rj_training_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.873667] (peak_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.900769] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.914742] (-) TimerEvent: {}
+[1.015457] (-) TimerEvent: {}
+[1.116484] (-) TimerEvent: {}
+[1.221390] (-) TimerEvent: {}
+[1.322470] (-) TimerEvent: {}
+[1.342126] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.344718] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.354374] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.358713] (astar_path_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.359341] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.360923] (astar_path_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.362340] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.364086] (localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.365125] (localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.367425] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.369110] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.372097] (coordinate_transform) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.374444] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.376322] (coordinate_transform) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.378486] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.381015] (controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.383029] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.391352] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.393361] (mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.394181] (mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.395084] (mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.402435] (controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.403483] (controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.404220] (controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.406213] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.409156] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.409753] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.410861] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.412720] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.415224] (controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.418484] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.421221] (peak_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.422578] (-) TimerEvent: {}
+[1.430658] (obstacle_detector) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.432026] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.433085] (obstacle_detector) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.438331] (peak_finder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.439354] (peak_finder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.440523] (peak_finder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.441923] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.446950] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.456053] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.475853] (rj_training_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.476462] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.476985] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.483823] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.523372] (-) TimerEvent: {}
+[1.628377] (-) TimerEvent: {}
+[1.729387] (-) TimerEvent: {}
+[1.830420] (-) TimerEvent: {}
+[1.878293] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.879507] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.894902] (astar_path_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.895972] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.898649] (astar_path_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.901599] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.903706] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.904308] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.905531] (astar_path_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.909065] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.909765] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.911185] (controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.913499] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.926203] (controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.926667] (coordinate_transform) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.926822] (controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.927680] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.928821] (controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.929840] (coordinate_transform) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.931824] (-) TimerEvent: {}
+[1.932848] (mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.935320] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.938924] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.939563] (controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.944168] (mapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.945457] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.946526] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.947694] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.948894] (coordinate_transform) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.963779] (peak_finder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.964195] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.964573] (peak_finder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.965049] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.965254] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.965575] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.972052] (peak_finder) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.974259] (obstacle_detector) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.975179] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.975391] (obstacle_detector) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.975915] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.984080] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.018592] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.032365] (-) TimerEvent: {}
+[2.037222] (rj_training_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.038713] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.038957] (rj_training_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.048992] (rj_training_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.133386] (-) TimerEvent: {}
+[2.236369] (-) TimerEvent: {}
+[2.337380] (-) TimerEvent: {}
+[2.426781] (astar_path_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.432784] (localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.438403] (-) TimerEvent: {}
+[2.460150] (controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.463224] (mapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.472887] (coordinate_transform) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.487999] (peak_finder) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.491611] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.501344] (obstacle_detector) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.539364] (-) TimerEvent: {}
+[2.574763] (rj_training_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.601525] (astar_path_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.604872] (localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.631707] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.634222] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.635272] (astar_path_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.638139] (controllers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.639329] (astar_path_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.640793] (-) TimerEvent: {}
+[2.641125] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.644596] (mapping) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.644799] (astar_path_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.647393] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.650055] (coordinate_transform) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.651235] (astar_path_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.653450] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.658181] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.661013] (astar_path_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.664014] (controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.664346] (controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.665620] (mapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.668964] (mapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.671806] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.672037] (controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.674094] (mapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.676556] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.676855] (controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.677083] (coordinate_transform) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.679239] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.679782] (coordinate_transform) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.681774] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.682000] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.684534] (coordinate_transform) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.686677] (peak_finder) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.686973] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.687301] (controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.688579] (localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.692268] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.693104] (astar_path_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.693804] (coordinate_transform) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.694108] (peak_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.694719] (astar_path_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.697199] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.700227] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.703148] (coordinate_transform) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.704825] (peak_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.705176] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.708910] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.711946] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.713636] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.716383] (controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.716813] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.717017] (controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.720354] (mapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.722080] (mapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.723272] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.724818] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.730649] (coordinate_transform) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.732307] (coordinate_transform) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.733772] (peak_finder) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.735634] (peak_finder) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.736027] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.741373] (-) TimerEvent: {}
+[2.743846] (rj_training_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.751676] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.753157] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.764354] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.768318] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.842362] (-) TimerEvent: {}
+[2.922880] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.943390] (-) TimerEvent: {}
+[2.957209] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.961911] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.964491] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.982934] (rj_training_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.003182] (rj_training_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.044099] (rj_training_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[3.045474] (-) TimerEvent: {}
+[3.053973] (localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.064657] (astar_path_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.082087] (localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.082862] (rj_training_bringup) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/rj_training_bringup\n'}
+[3.091205] (rj_training_bringup) CommandEnded: {'returncode': 0}
+[3.092730] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'build'}
+[3.098632] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/rj_training_bringup', '--', '-j14', '-l14'], 'cwd': '/workspace/build/rj_training_bringup', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/rj_training_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.101619] (astar_path_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.103631] (coordinate_transform) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.104226] (mapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.105459] (controllers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.114569] (peak_finder) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.131304] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.135465] (coordinate_transform) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.135793] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.136498] (mapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.137025] (obstacle_detector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.137456] (controllers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.138933] (localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.146382] (-) TimerEvent: {}
+[3.146860] (astar_path_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.149366] (peak_finder) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.154814] (astar_path_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.160933] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.171730] (obstacle_detector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.182395] (coordinate_transform) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.186385] (mapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.187993] (controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.189611] (coordinate_transform) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.190606] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.194498] (controllers) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.210737] (mineral_deposit_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.216916] (peak_finder) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.220555] (obstacle_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.222500] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.226607] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.229595] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.247377] (-) TimerEvent: {}
+[3.327105] (rj_training_bringup) CommandEnded: {'returncode': 0}
+[3.341415] (rj_training_bringup) JobProgress: {'identifier': 'rj_training_bringup', 'progress': 'install'}
+[3.350359] (-) TimerEvent: {}
+[3.378275] (rj_training_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/rj_training_bringup'], 'cwd': '/workspace/build/rj_training_bringup', 'env': OrderedDict([('HOSTNAME', 'c4486cfdac38'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/workspace/build/rj_training_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.444848] (rj_training_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.446412] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/behavior_trees\n'}
+[3.448685] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate.xml\n'}
+[3.451330] (-) TimerEvent: {}
+[3.455157] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate_w_replanning.xml\n'}
+[3.460722] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config\n'}
+[3.462706] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_8.yaml\n'}
+[3.466478] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/aruco_tag_visualization_params.yaml\n'}
+[3.474026] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params.yaml\n'}
+[3.476118] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_final_challenge.yaml\n'}
+[3.478368] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_7.yaml\n'}
+[3.482439] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch\n'}
+[3.483455] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/navigation.launch.py\n'}
+[3.488566] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects\n'}
+[3.490774] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_5.launch.xml\n'}
+[3.498402] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_8.launch.xml\n'}
+[3.501107] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_7.launch.xml\n'}
+[3.504064] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_2.launch.xml\n'}
+[3.507666] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_1.launch.xml\n'}
+[3.510825] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_4.launch.xml\n'}
+[3.513553] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_3.launch.xml\n'}
+[3.515627] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_6.launch.xml\n'}
+[3.520449] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/mineral_deposit_tracker.launch.py\n'}
+[3.522169] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/fake_localizer.launch.py\n'}
+[3.524530] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/full_game_stack.launch.xml\n'}
+[3.528275] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/empty_map_server.launch.py\n'}
+[3.533918] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/maps\n'}
+[3.535306] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/maps/empty_map.png\n'}
+[3.538797] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/maps/empty_map.yaml\n'}
+[3.542142] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets\n'}
+[3.543680] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets/default.yaml\n'}
+[3.548029] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config\n'}
+[3.550101] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_1.rviz\n'}
+[3.552320] (-) TimerEvent: {}
+[3.554775] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_6.rviz\n'}
+[3.559933] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_7.rviz\n'}
+[3.563983] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/final_challenge.rviz\n'}
+[3.571875] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_8.rviz\n'}
+[3.574877] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_4.rviz\n'}
+[3.578720] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_5.rviz\n'}
+[3.585794] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/color_detection.rviz\n'}
+[3.591349] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_3.rviz\n'}
+[3.601100] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/ament_index/resource_index/package_run_dependencies/rj_training_bringup\n'}
+[3.607650] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/ament_index/resource_index/parent_prefix_path/rj_training_bringup\n'}
+[3.613898] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.sh\n'}
+[3.617371] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.dsv\n'}
+[3.622460] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/path.sh\n'}
+[3.627649] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/path.dsv\n'}
+[3.632757] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.bash\n'}
+[3.636854] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.sh\n'}
+[3.641078] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.zsh\n'}
+[3.642510] (localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.643552] (astar_path_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.644546] (astar_path_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.645460] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.dsv\n'}
+[3.646442] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.648519] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/package.dsv\n'}
+[3.652024] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/ament_index/resource_index/packages/rj_training_bringup\n'}
+[3.653537] (-) TimerEvent: {}
+[3.656356] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig.cmake\n'}
+[3.661689] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig-version.cmake\n'}
+[3.668344] (rj_training_bringup) StdoutLine: {'line': b'-- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/package.xml\n'}
+[3.681000] (rj_training_bringup) CommandEnded: {'returncode': 0}
+[3.701896] (controllers) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.702876] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.705346] (controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.706178] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.719264] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.722146] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.727720] (coordinate_transform) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.730477] (coordinate_transform) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.738113] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.740199] (obstacle_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.754435] (-) TimerEvent: {}
+[3.769519] (peak_finder) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.771897] (peak_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.785157] (rj_training_bringup) JobEnded: {'identifier': 'rj_training_bringup', 'rc': 0}
+[3.855739] (-) TimerEvent: {}
+[3.957389] (-) TimerEvent: {}
+[4.059501] (-) TimerEvent: {}
+[4.160452] (-) TimerEvent: {}
+[4.200298] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.203916] (astar_path_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.206097] (localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.206941] (astar_path_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.246124] (localization) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.248390] (astar_path_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.19 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[4.255952] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.257767] (mapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.261381] (-) TimerEvent: {}
+[4.262734] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.263471] (controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.264272] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.265017] (controllers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.269453] (coordinate_transform) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.271049] (localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[4.271824] (localization) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.272394] (localization) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.273026] (localization) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[4.273808] (localization) StderrLine: {'line': b'\n'}
+[4.275367] (localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[4.276660] (localization) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.277924] (localization) StderrLine: {'line': b'\n'}
+[4.278385] (localization) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[4.278790] (localization) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[4.279262] (localization) StderrLine: {'line': b'\n'}
+[4.282806] (localization) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[4.283149] (localization) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[4.283847] (localization) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[4.284355] (localization) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.285080] (localization) StderrLine: {'line': b'\n'}
+[4.285678] (localization) StderrLine: {'line': b'\x1b[0m\n'}
+[4.286361] (localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.287321] (localization) StdoutLine: {'line': b'See also "/workspace/build/localization/CMakeFiles/CMakeOutput.log".\n'}
+[4.288517] (coordinate_transform) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.297349] (localization) CommandEnded: {'returncode': 1}
+[4.299585] (obstacle_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.300476] (mapping) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.300635] (obstacle_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.303882] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.305219] (controllers) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.311601] (peak_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.314817] (peak_finder) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.317191] (coordinate_transform) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.318825] (mapping) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.326412] (mapping) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.327772] (mineral_deposit_tracking) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[4.328297] (mineral_deposit_tracking) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.328700] (mineral_deposit_tracking) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.328924] (mineral_deposit_tracking) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[4.329043] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[4.329156] (mineral_deposit_tracking) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[4.329264] (mineral_deposit_tracking) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.329411] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[4.329521] (mineral_deposit_tracking) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[4.329777] (mineral_deposit_tracking) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[4.330223] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[4.330545] (mineral_deposit_tracking) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[4.332269] (mineral_deposit_tracking) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[4.332440] (mineral_deposit_tracking) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[4.332583] (mineral_deposit_tracking) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.332723] (mineral_deposit_tracking) StderrLine: {'line': b'\n'}
+[4.332858] (mineral_deposit_tracking) StderrLine: {'line': b'\x1b[0m\n'}
+[4.333002] (mineral_deposit_tracking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.333159] (mineral_deposit_tracking) StdoutLine: {'line': b'See also "/workspace/build/mineral_deposit_tracking/CMakeFiles/CMakeOutput.log".\n'}
+[4.333311] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.333471] (controllers) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.333710] (coordinate_transform) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.341379] (mapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.341930] (mineral_deposit_tracking) CommandEnded: {'returncode': 1}
+[4.351413] (controllers) StdoutLine: {'line': b'-- Found nav2_core: 1.1.19 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[4.356000] (obstacle_detector) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.358320] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.362349] (-) TimerEvent: {}
+[4.371673] (coordinate_transform) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[4.376972] (peak_finder) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[4.379078] (coordinate_transform) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.382662] (localization) JobEnded: {'identifier': 'localization', 'rc': 1}
+[4.388560] (obstacle_detector) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[4.390242] (mapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.392995] (coordinate_transform) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.396430] (obstacle_detector) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.398555] (mapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.399516] (mapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.399662] (mapping) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.407273] (peak_finder) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:8 (find_package):\n'}
+[4.408152] (peak_finder) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.408877] (peak_finder) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.410341] (peak_finder) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[4.411863] (peak_finder) StderrLine: {'line': b'\n'}
+[4.412780] (peak_finder) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[4.413265] (peak_finder) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.413808] (peak_finder) StderrLine: {'line': b'\n'}
+[4.414145] (peak_finder) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[4.415463] (peak_finder) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[4.415675] (peak_finder) StderrLine: {'line': b'\n'}
+[4.416048] (peak_finder) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[4.416216] (peak_finder) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[4.416949] (peak_finder) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[4.417336] (peak_finder) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.417692] (peak_finder) StderrLine: {'line': b'\n'}
+[4.417871] (peak_finder) StderrLine: {'line': b'\x1b[0m\n'}
+[4.418003] (peak_finder) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.418171] (peak_finder) StdoutLine: {'line': b'See also "/workspace/build/peak_finder/CMakeFiles/CMakeOutput.log".\n'}
+[4.418438] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.418918] (mapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.424159] (peak_finder) JobEnded: {'identifier': 'peak_finder', 'rc': 'SIGINT'}
+[4.434524] (mineral_deposit_tracking) JobEnded: {'identifier': 'mineral_deposit_tracking', 'rc': 'SIGINT'}
+[4.443076] (coordinate_transform) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[4.448366] (astar_path_planner) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.451504] (astar_path_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.452478] (coordinate_transform) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[4.452977] (coordinate_transform) StderrLine: {'line': b'  By not providing "Findstsl_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.453459] (coordinate_transform) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.456329] (coordinate_transform) StderrLine: {'line': b'  "stsl_interfaces", but CMake did not find one.\n'}
+[4.456579] (coordinate_transform) StderrLine: {'line': b'\n'}
+[4.456836] (coordinate_transform) StderrLine: {'line': b'  Could not find a package configuration file provided by "stsl_interfaces"\n'}
+[4.457113] (coordinate_transform) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.460422] (coordinate_transform) StderrLine: {'line': b'\n'}
+[4.460547] (coordinate_transform) StderrLine: {'line': b'    stsl_interfacesConfig.cmake\n'}
+[4.460703] (coordinate_transform) StderrLine: {'line': b'    stsl_interfaces-config.cmake\n'}
+[4.460821] (coordinate_transform) StderrLine: {'line': b'\n'}
+[4.460952] (coordinate_transform) StderrLine: {'line': b'  Add the installation prefix of "stsl_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[4.461055] (coordinate_transform) StderrLine: {'line': b'  set "stsl_interfaces_DIR" to a directory containing one of the above files.\n'}
+[4.461156] (coordinate_transform) StderrLine: {'line': b'  If "stsl_interfaces" provides a separate development package or SDK, be\n'}
+[4.461258] (coordinate_transform) StderrLine: {'line': b'  sure it has been installed.\n'}
+[4.461441] (coordinate_transform) StderrLine: {'line': b'\n'}
+[4.461619] (coordinate_transform) StderrLine: {'line': b'\x1b[0m\n'}
+[4.461738] (coordinate_transform) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.461858] (coordinate_transform) StdoutLine: {'line': b'See also "/workspace/build/coordinate_transform/CMakeFiles/CMakeOutput.log".\n'}
+[4.461963] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[4.463302] (-) TimerEvent: {}
+[4.467433] (coordinate_transform) JobEnded: {'identifier': 'coordinate_transform', 'rc': 'SIGINT'}
+[4.468498] (obstacle_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") \n'}
+[4.476442] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.487364] (controllers) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.489427] (controllers) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.531869] (astar_path_planner) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[4.552024] (astar_path_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.563262] (controllers) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[4.563881] (-) TimerEvent: {}
+[4.572635] (mapping) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.576826] (mapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.577075] (mapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.577454] (mapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.578501] (mapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.581607] (mapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.581806] (mapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.582407] (mapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.583991] (controllers) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.597359] (mapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.631580] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.644169] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.644819] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.645223] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.653607] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.654115] (obstacle_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.655124] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.659664] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.661314] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.662003] (mapping) StdoutLine: {'line': b'-- Generating done\n'}
+[4.664335] (-) TimerEvent: {}
+[4.670191] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.670857] (obstacle_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.672349] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.682196] (obstacle_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.697525] (mapping) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/mapping\n'}
+[4.707422] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 'SIGINT'}
+[4.728424] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.733155] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.733788] (astar_path_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.734188] (astar_path_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.741394] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.741978] (astar_path_planner) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.743216] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.746654] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.747477] (astar_path_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.748882] (astar_path_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.754146] (controllers) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.762485] (controllers) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.763048] (controllers) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.763427] (controllers) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.765308] (-) TimerEvent: {}
+[4.768504] (controllers) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.769108] (controllers) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.772182] (controllers) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.773439] (astar_path_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.774268] (obstacle_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[4.777054] (controllers) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.777418] (controllers) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.778652] (controllers) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.792316] (controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.802926] (obstacle_detector) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/obstacle_detector\n'}
+[4.814124] (obstacle_detector) JobEnded: {'identifier': 'obstacle_detector', 'rc': 'SIGINT'}
+[4.864525] (astar_path_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[4.864962] (controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[4.866360] (-) TimerEvent: {}
+[4.889877] (astar_path_planner) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/astar_path_planner\n'}
+[4.893839] (controllers) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/controllers\n'}
+[4.901285] (astar_path_planner) JobEnded: {'identifier': 'astar_path_planner', 'rc': 'SIGINT'}
+[4.902294] (controllers) JobEnded: {'identifier': 'controllers', 'rc': 'SIGINT'}
+[4.913254] (-) EventReactorShutdown: {}

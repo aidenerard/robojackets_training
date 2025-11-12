@@ -1,0 +1,84 @@
+[0.105s] Invoking command in '/workspace/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/workspace/install/rj_training_bringup
+[0.506s] -- The C compiler identification is GNU 11.4.0
+[0.818s] -- The CXX compiler identification is GNU 11.4.0
+[0.846s] -- Detecting C compiler ABI info
+[1.402s] -- Detecting C compiler ABI info - done
+[1.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.421s] -- Detecting C compile features
+[1.422s] -- Detecting C compile features - done
+[1.429s] -- Detecting CXX compiler ABI info
+[1.963s] -- Detecting CXX compiler ABI info - done
+[1.983s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.983s] -- Detecting CXX compile features
+[1.983s] -- Detecting CXX compile features - done
+[1.994s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.520s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.689s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.868s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.903s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.907s] -- Added test 'lint_cmake' to check CMake code style
+[2.910s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.928s] -- Added test 'xmllint' to check XML markup files
+[2.949s] -- Configuring done
+[2.990s] -- Generating done
+[3.028s] -- Build files have been written to: /workspace/build/rj_training_bringup
+[3.036s] Invoked command in '/workspace/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/rj_training_bringup -DCMAKE_INSTALL_PREFIX=/workspace/install/rj_training_bringup
+[3.044s] Invoking command in '/workspace/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/rj_training_bringup -- -j14 -l14
+[3.272s] Invoked command in '/workspace/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/rj_training_bringup -- -j14 -l14
+[3.335s] Invoking command in '/workspace/build/rj_training_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/rj_training_bringup
+[3.390s] -- Install configuration: ""
+[3.391s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/behavior_trees
+[3.394s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate.xml
+[3.400s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/behavior_trees/navigate_w_replanning.xml
+[3.406s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config
+[3.407s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_8.yaml
+[3.412s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/aruco_tag_visualization_params.yaml
+[3.419s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params.yaml
+[3.421s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_final_challenge.yaml
+[3.423s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/config/nav_params_week_7.yaml
+[3.427s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch
+[3.428s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/navigation.launch.py
+[3.433s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects
+[3.435s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_5.launch.xml
+[3.443s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_8.launch.xml
+[3.446s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_7.launch.xml
+[3.449s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_2.launch.xml
+[3.452s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_1.launch.xml
+[3.457s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_4.launch.xml
+[3.459s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_3.launch.xml
+[3.461s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/projects/week_6.launch.xml
+[3.465s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/mineral_deposit_tracker.launch.py
+[3.467s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/fake_localizer.launch.py
+[3.470s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/full_game_stack.launch.xml
+[3.473s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/launch/empty_map_server.launch.py
+[3.479s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/maps
+[3.480s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/maps/empty_map.png
+[3.484s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/maps/empty_map.yaml
+[3.487s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets
+[3.489s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/mineral_sample_sets/default.yaml
+[3.493s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config
+[3.495s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_1.rviz
+[3.500s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_6.rviz
+[3.505s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_7.rviz
+[3.509s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/final_challenge.rviz
+[3.517s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_8.rviz
+[3.520s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_4.rviz
+[3.524s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_5.rviz
+[3.531s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/color_detection.rviz
+[3.539s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/rviz_config/week_3.rviz
+[3.547s] -- Installing: /workspace/install/rj_training_bringup/share/ament_index/resource_index/package_run_dependencies/rj_training_bringup
+[3.552s] -- Installing: /workspace/install/rj_training_bringup/share/ament_index/resource_index/parent_prefix_path/rj_training_bringup
+[3.560s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.sh
+[3.562s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/ament_prefix_path.dsv
+[3.567s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/path.sh
+[3.573s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/environment/path.dsv
+[3.578s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.bash
+[3.582s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.sh
+[3.587s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.zsh
+[3.591s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/local_setup.dsv
+[3.594s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/package.dsv
+[3.597s] -- Installing: /workspace/install/rj_training_bringup/share/ament_index/resource_index/packages/rj_training_bringup
+[3.601s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig.cmake
+[3.607s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/cmake/rj_training_bringupConfig-version.cmake
+[3.614s] -- Installing: /workspace/install/rj_training_bringup/share/rj_training_bringup/package.xml
+[3.627s] Invoked command in '/workspace/build/rj_training_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/rj_training_bringup

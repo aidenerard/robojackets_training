@@ -1,0 +1,1 @@
+Invoking command in '/workspace/build/controllers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/controllers -DCMAKE_INSTALL_PREFIX=/workspace/install/controllers
